@@ -1,0 +1,166 @@
+body{
+    background-color: #fff;
+}
+.logo{
+    padding-top: 30px;
+    width: 900px;
+    height: 100px;
+    margin:0px auto;
+    text-align: center;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.nav_content{
+    width: 900px;
+    height: 100px;
+    margin:0 auto;
+    /*background-color: red;*/
+}
+.nav_left{
+    width: 130px;
+    height: 100px;
+    float: left;
+    opacity: 0;
+}
+.nav_left img{
+    width: 130px;
+    height: 44px;
+}
+.nav_right{
+    width:auto;
+    height: 44px;
+    float: left;
+    /*background-color: blue;*/
+}
+.nav_right input[type='text']{
+    width: 530px;
+    height: 44px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.nav_right input[type='submit']{
+    height: 44px;
+    width: 100px;
+    background-color: #ff0202;
+    color: #000;
+    font-size: 18px;
+    position: relative;
+    left: -5px;
+}
+
+.content{
+    width: 900px;
+    height: 2000px;
+    margin:0px auto;
+    border: 1px solid #ccc;
+}
+.header{
+    height: 44px;
+    width: 100%;
+    /*border:1px solid #cccccc;*/
+    border-bottom:1px solid #cccccc;
+}
+.header ul li{
+    padding: 0 20px;
+    font-size: 13px;
+    line-height: 44px;
+    text-align: center;
+    float: left;
+}
+.header ul .curr{
+    background-color: #666;
+    color: #fff;
+}
+.body{
+    display: none;
+}
+.active{
+    display: block;
+}
+.body ul li{
+    width: 100%;
+    line-height: 44px;
+    border-bottom:1px solid #ccc;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.body .task span{
+    float: right;
+    margin-right: 10px;
+    color: blue;
+}
+.body .task .item_title{
+    text-align: left;
+    width: 700px;
+}
+.body .finish_task span{
+    float: right;
+    margin-right: 10px;
+    color: blue;
+}
+.body .finish_task .item_title{
+    text-align: left;
+    width: 700px;
+}
+.top{
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    display: none;
+}
+
+.mask{
+    width:100%;
+    height:100%;
+    position: fixed;
+    left:0;
+    top:0;
+    display: none;
+    background: rgba(0,0,0,0.3);
+}
+.mask .detail_content{
+    width: 320px;
+    height: 300px;
+    margin:200px auto;
+    background: #fff;
+    padding:10px;
+}
+.detail_content .detail_header{
+    height: 44px;
+    margin-left:10px;
+    line-height:44px;
+}
+.detail_header .close{
+    float: right;
+}
+.detail_body textarea{
+    width:300px;
+    height:130px;
+    border:1px solid orangered;
+    background: #ccc;
+    resize: none;
+}
+.detail_body input[type=text]{
+    width: 300px;
+    height: 44px;
+    padding-left:10px;
+    background: #ccc;
+}
+.detail_body button{
+    width: 100px;
+    height: 30px;
+    background: red;
+    float: right;
+    margin-top:10px;
+    margin-right:10px;
+}
+video{
+    opacity:0;
+}
